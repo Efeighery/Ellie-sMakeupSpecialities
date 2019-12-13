@@ -1,0 +1,292 @@
+body{
+	background-color: pink;
+}
+
+
+.container-fluid{
+	min-height: 630px;
+	margin: auto;
+}
+
+
+table{
+	margin-left: 400px;
+	background-color: #d9d9d9;
+}
+
+.jumbotron{
+	font-size: 27px;
+	min-height: 780px;
+	width: 90%;
+	background-color: grey;
+	color: black;
+	padding: 3%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.Picture{
+		height: 360px; 
+		border: 2px solid black;
+		float: right; 
+}
+
+.title{
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	margin-bottom: 16px;
+	font-family: "Comic Sans MS";
+}
+
+.Footer{
+	color: white;
+	background-color: black;
+	clear: both;
+	width: 100%;
+	padding: 2%;
+	margin-top: 10%;
+}
+
+.link{
+	background-color: grey;
+	color: black;
+	font-size: 30px;
+	padding: 20px;
+	width: 90%;
+	height: 220px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.link2{
+	background-color: grey;
+	color: black;
+	font-size: 30px;
+	padding: 20px;
+	width: 90%;
+	height: 220px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+h4{
+	font-size: 27px;	
+}
+
+.heading{
+	text-align: center;
+	font-size: 19px;
+}
+
+
+.Byphone{
+	width: 95%;
+	text-align: center;
+	height: 100px;
+	padding: 10%;
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 55px; 	
+}
+
+.Online1{
+	width: 95%;
+	height: 100px;
+	padding: 10%;
+	background-color: white;
+	clear: both;
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.Online2{
+	width: 95%;
+	height: 100px;
+	padding: 10%;
+	background-color: white;	
+	margin-bottom: 55px;
+	text-align: center;
+}
+
+.Online3{
+	width: 95%;
+	height: 100px;
+	padding: 10%;
+	background-color: white;
+	margin-top: 55px;
+	text-align: center;
+}
+
+
+.imageone{
+	width: 70%;	
+}
+
+.imagetwo{
+	width: 65%;	
+}
+.imagethree{
+	width: 65%;	
+}
+.imagefour{
+	width: 50%;	
+}
+.imagefive{
+	width: 65%;	
+}
+.imagesix{
+	width: 65%;	
+}
+.imageseven{
+	width: 65%;	
+}
+.imageeight{
+	width: 55%;	
+}
+
+.heading{
+	text-align: center;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	font-family: Arial;
+}
+
+.column{
+	float: left;
+	width: 25%;
+	padding: 10px;
+}
+
+.column img{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.column img:hover{
+	opacity: 1;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.imageSize{
+	position: relative;
+}
+
+#imagetext{
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+.closebtn{
+	float: left;
+	top: 10px;
+	right: 15px;
+	color: black;
+	font-size: 60px;
+	cursor: pointer;
+}
+
+
+h2{
+	text-align: center;
+}
+
+#textposition{
+	text-align: center;
+}
+
+/* Very smaller devices (Mobile phones, 600px and lower)*/
+@media only-screen and (max-width: 600px){
+	body{
+	width: 100%;
+	}
+}
+
+/* Small sized devices (Tablets and larger phones, 600px and higher)*/
+@media only screen and (max-width: 679px){
+	body{
+		width: 100%;
+	}
+	
+	.navbar {
+		width: 100%;
+	}
+	
+	#textposition{
+		text-align: center;
+	}
+	
+	
+	table{
+		margin: 0 auto;
+	}
+	
+	.jumbotron{
+		font-size: 19px;
+		min-height: 840px;
+	}
+	
+	.link{
+		float: left;
+		width: 33%;
+		font-size: 15px;
+		margin-left: 30px;
+		height: 295px;
+	}
+	
+	.link2{
+		float: right;
+		width: 33%;
+		font-size: 15px;
+		margin-right: 30px; 
+		height: 295px;
+	}
+	
+	.btn-info-active{
+	height: 120px;
+	}
+	
+	.Footer{
+		margin-top: 20px;
+		clear: both;
+	}
+}
+
+/* Medium devices (Landscape-sized tablets, 768px and higher) */
+@media only screen and (min-width: 768px) {
+	body{
+		width: 100%;
+	}
+	
+}
+
+/* Large devices (Laptops/desktops, 992px and higher) */
+@media only screen and (min-width: 992px) {
+	body{
+		width: 100%;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and higher) */
+@media only screen and (min-width: 1200px) {
+	body{
+		width: 100%;
+	}
+	
+}
